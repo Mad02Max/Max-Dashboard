@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/dashboard.css">
+    <title>Dashboard Max</title>
+</head>
+<body>
+    <div class="dashboard"></div>
+        <div id="clock"></div>
+        <h1 id="title">Max Dashboard</h1>
+		<div class="box">
+			<div id="links"></div>
+            <button id="add-link-btn">Add Link</button>
+            <div id="modal" class="modal">
+            <div class="modal-content">
+                <h2>Add Link</h2>
+                <input id="title-input" type="text" placeholder="Enter title">
+                <input id="link-input" type="text" placeholder="Enter link URL">
+                <button id="save-link-btn">Save</button>
+                <button id="cancel-btn">Cancel</button>
+            </div>
+		</div>
+		<div class="box">
+            <h2>Todays Weather</h2>
+			<div id="forecast"></div>
+		</div>
+		<div class="box"></div>
+			<div class="exchange">
+            </div>
+		</div>
+		<div class="box">
+			<h2>Box 4</h2>
+			<!-- Add content here -->
+		</div>
+	</div>
+    <script src="clock.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html>
